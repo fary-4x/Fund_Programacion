@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1d8614cdd0024ec7b5bcdec167c06182 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1d8614cdd0024ec7b5bcdec167c06182" ></div>
+        
+</body>
+<script>    
+    
+            var map_1d8614cdd0024ec7b5bcdec167c06182 = L.map(
+                "map_1d8614cdd0024ec7b5bcdec167c06182",
+                {
+                    center: [18.5236, -69.675],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    zoomstart: 10,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c0b5fd9d72684f74b6145289e379e3a1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1d8614cdd0024ec7b5bcdec167c06182);
+        
+    
+            var marker_658c9552600f48d2b0c16a0df9aca147 = L.marker(
+                [18.49472, -69.8544],
+                {}
+            ).addTo(map_1d8614cdd0024ec7b5bcdec167c06182);
+        
+    
+        var popup_7039fafdaa0847adab8b8bd35b3e27d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81edf96785da4ae7b5dae39c29f81eb1 = $(`<div id="html_81edf96785da4ae7b5dae39c29f81eb1" style="width: 100.0%; height: 100.0%;"><b>fary <hr> <b>Objeto Robado: </b>celular <hr> <b>Fecha del asalto:</b> 2000-11-03 <hr> <b>Valor RD$:</b>10000</div>`)[0];
+            popup_7039fafdaa0847adab8b8bd35b3e27d6.setContent(html_81edf96785da4ae7b5dae39c29f81eb1);
+        
+
+        marker_658c9552600f48d2b0c16a0df9aca147.bindPopup(popup_7039fafdaa0847adab8b8bd35b3e27d6)
+        ;
+
+        
+    
+    
+            marker_658c9552600f48d2b0c16a0df9aca147.bindTooltip(
+                `<div>
+                     Pulse acá para mas inf.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8e02b9aa5d3446e9fc5c8a45c30da43 = L.marker(
+                [19.4398316, -70.7430642],
+                {}
+            ).addTo(map_1d8614cdd0024ec7b5bcdec167c06182);
+        
+    
+        var popup_62f6526064dc48b8a8adcc608074419c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dc974e7e1884f59b61119c44391ad80 = $(`<div id="html_3dc974e7e1884f59b61119c44391ad80" style="width: 100.0%; height: 100.0%;"><b>yiur <hr> <b>Objeto Robado: </b>lapiz <hr> <b>Fecha del asalto:</b> 2000-10-12 <hr> <b>Valor RD$:</b>5</div>`)[0];
+            popup_62f6526064dc48b8a8adcc608074419c.setContent(html_3dc974e7e1884f59b61119c44391ad80);
+        
+
+        marker_b8e02b9aa5d3446e9fc5c8a45c30da43.bindPopup(popup_62f6526064dc48b8a8adcc608074419c)
+        ;
+
+        
+    
+    
+            marker_b8e02b9aa5d3446e9fc5c8a45c30da43.bindTooltip(
+                `<div>
+                     Pulse acá para mas inf.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

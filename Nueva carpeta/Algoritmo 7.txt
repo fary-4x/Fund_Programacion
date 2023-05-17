@@ -1,0 +1,11 @@
+Como desarrollar un algoritmo
+
+Inicio
+
+-Análisis previo del Problema
+-Definición de Requerimientos
+-Identificación de los Módulos
+-Realización de los Algoritmos
+-Implementación de los Algoritmos
+
+Final

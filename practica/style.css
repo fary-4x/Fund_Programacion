@@ -1,0 +1,15 @@
+html{
+    background-image: url('img/fondo.jpg');
+}
+
+body{
+
+    margin: 170px;
+    border: solid 10px rgb(41, 179, 189);
+    padding: 150px;
+    padding: top 10px; ;
+    padding-bottom: 10px;
+    background: rgb(197, 171, 116);
+    text-align: justify;
+
+}

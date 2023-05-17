@@ -1,0 +1,13 @@
+Ir de repiblica dominicana a puerto rico
+
+Inicio 
+
+-Se debe tener Visa americana obligatoriamente
+-Buscar una pagina de compras de vuelos
+-Escoger el aeropuerto y la aerolinea de preferencia
+-Elegir fecha de ida y vuelta
+-Luega busca la opcion más conveniente 
+-Comprar vuelo 
+-Esperar la fecha escogida para el vuelo
+
+Final

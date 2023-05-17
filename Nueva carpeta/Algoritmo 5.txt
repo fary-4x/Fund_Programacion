@@ -1,0 +1,7 @@
+Encontrar el mayor de dos numeros
+
+Inicio
+
+-Verificar si el numero esta a la derecha en la rectanumerica y sabras cual es el mayor
+
+Final

@@ -1,0 +1,10 @@
+Sumar dos numeros
+
+Inicio 
+
+-Elegir los numeros
+-Analizarlo
+-Dependiendo el grado de dificultan
+-calcularlos mental, escrita o digitalmente.
+
+Final
